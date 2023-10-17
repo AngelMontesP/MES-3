@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <div class="cabecera">
+        <h1>ANIME</h1>
+        <h1>LIFE</h1>
+    </div>
+
+    <div class="navBar">
+        <div class="elementosNavBar">
+            <a href="index.html">
+                <button class="elementosNavBar">Home</button>
+            </a>
+        </div>
+        <div>
+            <button class="elementosNavBar" id="eliminarAgregados">Eliminar Agregados</button>
+        </div>
+    </div>
+
+    <div class="">
+        <div id="animeDatos" class="textoAnime  ">
+            <div class="addAnime">
+                <label for="animeNombre">Nombre: </label><input type="text" id="animeNombre">
+            </div>
+            <div class="addAnime">
+                <label for="animeImagen">Imagen: </label><input type="text" id="animeImagen">
+            </div>
+            <div class="addAnime">
+                <label for="animeEscritor">Escritor: </label><input type="text" id="animeEscritor">
+            </div>
+            <div class="addAnime">
+                <label for="Aventura"> Aventura </label>
+                <input type="radio" id="Aventura" value="Aventura">
+                <label for="Accion"> Accion </label>
+                <input type="radio" id="Accion" value="Accion">
+                <label for="Artes Marciales"> Artes Marciales </label>
+                <input type="radio" id="Artes_Marciales" value="Artes Marciales">
+                <label for="Comedia"> Comedia </label>
+                <input type="radio" id="Comedia" value="Comedia">
+                <label for="Misterio"> Misterio </label>
+                <input type="radio" id="Misterio" value="Misterio">
+                <label for="Sobrenatural"> Sobrenatural </label>
+                <input type="radio" id="Sobrenatural" value="Sobrenatural">
+                <label for="Thriller"> Thriller </label>
+                <input type="radio" id="Thriller" value="Thriller">
+            </div>
+
+
+            <div class="addAnime">
+                <label for="animeEstado">Estado: </label>
+                <select name="" id="animeEstado" class="textoAnime">
+                    <option value="En emision">En Emision</option>
+                    <option value="Finalizado">Finalizado</option>
+                </select>
+            </div>
+            <div class="addAnime">
+                <button id="btnAddAnime" class="elementosNavBar"> Agregar Anime</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="addAnime.js"></script>
+</body>
+
+</html>
